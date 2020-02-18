@@ -1,0 +1,80 @@
+#needs{
+    color: white;
+    background-color: #f4623a;
+    padding: 130px 0px;
+}
+.firstbtn{
+    background-color: white;
+    color: black;
+}
+#needs p{
+    padding-top: 45px;
+    color: rgba(255,255,255,.5);
+    font-size: 1.1rem;
+}
+
+.btns{
+    border-radius: 40px;
+    height: 70px;
+}
+.firsth1{
+    position: relative;
+    font-size: 2.1rem;
+}
+
+.firsth1::before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    border: 1.5px solid white;
+    position: absolute;
+    bottom: -30px;
+    left: 47%;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 10rem;
+}    
+
+#yourservice{
+    padding: 120px 0;
+}
+
+#yourservice h1{
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+.second::before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    border: 1.5px solid #f4623a;
+    position: absolute;
+    bottom: -25px;
+    left: 47%;
+}
+
+.service-item{
+    margin-top: 50px;
+
+}
+
+.service-item p{
+    color: #6c757d;
+    font-size: 1.06rem;
+}
+
+.myicons{
+    margin-bottom: 20px;
+    font-size: 3.2rem;
+    color: #f4623a;
+}
+
+.col-lg-4 img{
+    width: 100%;
+}
